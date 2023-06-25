@@ -15,7 +15,7 @@ D:/Projects/3Dproject/My project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54948
+56872
 Successfully changed project path to: D:/Projects/3Dproject/My project
 D:/Projects/3Dproject/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Projects/3Dproject/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006645 seconds.
+Registered in 0.006710 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.512 seconds
+- Completed reload, in  0.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (512ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (554ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (345ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (76ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003769 seconds.
+Registered in 0.004123 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\3Dproject\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\3Dproject\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  0.939 seconds
 Domain Reload Profiling:
-	ReloadAssembly (794ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (289ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (112.4 KB). Loaded Objects now: 3817.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 4.700900 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.137500 ms MarkObjects: 3.926300 ms  DeleteObjects: 0.161000 ms)
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 5.368100 ms (FindLiveObjects: 0.571000 ms CreateObjectMapping: 0.267600 ms MarkObjects: 4.363100 ms  DeleteObjects: 0.165000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,103 +157,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 515731.052034 seconds.
-  path: Assets/models/lock/text
-  artifactKey: Guid(79b56f2b013973547958013b8a226b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/text using Guid(79b56f2b013973547958013b8a226b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100059b0511407214a62351f66dd9a7f') in 0.012029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.718480 seconds.
-  path: Assets/models/lock/source/Friedmann_Tim_Ruined_Elden_Ring_Church.fbx
-  artifactKey: Guid(ba72b1761380c104d8fff50e2d69455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/source/Friedmann_Tim_Ruined_Elden_Ring_Church.fbx using Guid(ba72b1761380c104d8fff50e2d69455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b42bce9d3c1bec4fb322297dfdcb35') in 0.150274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.495290 seconds.
-  path: Assets/models/lock/lock
-  artifactKey: Guid(6c7f756752e33ef45a3c21de7fc24ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/lock using Guid(6c7f756752e33ef45a3c21de7fc24ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384dce9a886832c63c86326ff3fe99b') in 0.001305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.181304 seconds.
-  path: Assets/models/lock/location
-  artifactKey: Guid(6c7f756752e33ef45a3c21de7fc24ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/location using Guid(6c7f756752e33ef45a3c21de7fc24ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0a1b80717c27852d7b692f66a6817b') in 0.006859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.669199 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Alpha.png
-  artifactKey: Guid(c8731f6cdd27fad41bc216e330e29ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Alpha.png using Guid(c8731f6cdd27fad41bc216e330e29ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f999afa7d855b217d8630ce9e4a03c7') in 0.035087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Diffuse.png
-  artifactKey: Guid(9c01855624029e44fa0be731a16088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Diffuse.png using Guid(9c01855624029e44fa0be731a16088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3913fa8cf0ad701d88d2e053b9fbea6') in 0.015104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Roughness.png
-  artifactKey: Guid(0a2eb66100b2d2a48acdedcf30e2a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Roughness.png using Guid(0a2eb66100b2d2a48acdedcf30e2a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a18a5f8f1fd33ebb34f6001a3c426b') in 0.015352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Ao.png
-  artifactKey: Guid(e7cd6ba186c91e440aa034915501d0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Ao.png using Guid(e7cd6ba186c91e440aa034915501d0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4792f5eadc8f917bd5bd1af05858a134') in 0.017422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Normal.png
-  artifactKey: Guid(a3d94f938a5ee2747981d72fcb0d4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Normal.png using Guid(a3d94f938a5ee2747981d72fcb0d4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa87ed16fc9f4381b07ed874cae68b1c') in 0.014436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Rocks_Tilemap_Normal.png
-  artifactKey: Guid(a1fa8c5d42c4dde4db349282cf92ecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Rocks_Tilemap_Normal.png using Guid(a1fa8c5d42c4dde4db349282cf92ecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a9213984b509e81e27286e0dd1b4ec') in 0.016531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Rocks_Tilemap_Diffuse.png
-  artifactKey: Guid(c35926e3d1e280b4f9c42ce1e9b294cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Rocks_Tilemap_Diffuse.png using Guid(c35926e3d1e280b4f9c42ce1e9b294cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7773d56d70152b30e7dbab01add0af') in 0.017219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Metallic.png
-  artifactKey: Guid(483dac8441910fe43956f598832fbaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Pillar_Fence_Metallic.png using Guid(483dac8441910fe43956f598832fbaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a2173e4eb4567c6e3c4b6cd65fe0d8') in 0.013920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Diffuse.png
-  artifactKey: Guid(3abef252ed3adbc4f9f48812fb7e16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Diffuse.png using Guid(3abef252ed3adbc4f9f48812fb7e16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35ae7fcd398ba9e17bf4745496bd852') in 0.016194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Metallic.png
-  artifactKey: Guid(dccf76b4bcde5ee4c89a11fece647caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Ground_Metallic.png using Guid(dccf76b4bcde5ee4c89a11fece647caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b573b418f6fb4d36e4dbc31d834d8c4') in 0.018087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Roughness.png
-  artifactKey: Guid(7aea072c240cee8498a216134f0731b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures/Friedmann_Tim_Church_Trimsheet_Roughness.png using Guid(7aea072c240cee8498a216134f0731b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9510ab358fee9cc08a2c7a24485533') in 0.015424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.244738 seconds.
-  path: Assets/models/lock/textures
-  artifactKey: Guid(c5a9eb8c0ef6c2a4da17bd8e23510dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/lock/textures using Guid(c5a9eb8c0ef6c2a4da17bd8e23510dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd866a4fc363118c05170818f17440331') in 0.008133 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
